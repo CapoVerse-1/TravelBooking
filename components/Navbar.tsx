@@ -68,7 +68,7 @@ const Navbar = () => {
                     aria-labelledby="user-menu"
                   >
                     <div className="px-4 py-2 text-sm text-gray-700 border-b">
-                      Hi, {user?.username}
+                      Hi, {user?.name}
                     </div>
                     <Link href="/profile" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" onClick={closeDropdown}>
                       Your Profile
@@ -145,7 +145,7 @@ const Navbar = () => {
                   </div>
                 </div>
                 <div className="ml-3">
-                  <div className="text-base font-medium text-gray-800">{user?.username}</div>
+                  <div className="text-base font-medium text-gray-800">{user?.name}</div>
                   <div className="text-sm font-medium text-gray-500">{user?.email}</div>
                 </div>
               </div>
