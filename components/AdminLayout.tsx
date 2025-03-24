@@ -132,7 +132,7 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
             <div className="flex items-center">
               <div className="ml-3 relative">
                 <div className="h-8 w-8 rounded-full bg-primary-500 flex items-center justify-center text-white">
-                  {user?.username?.charAt(0).toUpperCase()}
+                  {user?.name?.charAt(0).toUpperCase()}
                 </div>
               </div>
             </div>
